@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Lizhijun</string>
+    <string name="BMI">BMI</string>
+    <string name="heat_consumption">Heat consumption</string>
+    <string name="weight_loss_time">Weight loss time</string>
+    <string name="hint_bmi_weight">Please input your weight</string>
+    <string name="hint_bmi_height">Please input your height</string>
+    <string name="bmi_tip1">Your BMI is %.2f,have a little thin~</string>
+    <string name="bmi_tip2">Your BMI is %.2f,congratulations!Standard figure~</string>
+    <string name="bmi_tip3">Your BMI is %.2f,A little fat~</string>
+    <string name="bmi_tip4">Your BMI is %.2f,obesity T_T</string>
+    <string name="bmi_tip5">Your BMI is %.2f,Very fat~</string>
+    <string name="btn_calc">calculate</string>
+
+    <string name="tv_choose_age">Please choose your age：</string>
+    <string name="rd_age1">18-30</string>
+    <string name="rd_age2">31-60</string>
+    <string name="everyday_heat_consumption" formatted="false">Your heat consumption is %.2f calories a day\nIf you want to lose weight, you eat the most calories %.2f calories a day</string>
+
+    <string name="heart_rate">Exercise heart rate</string>
+    <string name="exercise_tip">Fitness level:</string>
+    <string name="exercise1">Novice - just start exercise</string>
+    <string name="exercise2">Beginner - occasionally exercise</string>
+    <string name="exercise3">General fitness - moderate exercise</string>
+    <string name="exercise4">High intensity exercise - strenuous exercise</string>
+    <string name="exercise_result" formatted="false">Heartbeat per minute:%d -%d</string>
+
+
+    <string name="hint_weight">Please enter your current weight (unit: jin)</string>
+    <string name="hint_gold_weight">Please enter your target weight (unit: jin)</string>
+    <string name="hint_lose_weight">Please select your daily calorie deficit (unit: calories)</string>
+    <string name="hint_lose_weight_tip">What is the calorie deficit?\nCalorie deficit = total calories consumed per day - calories consumed in the diet - exercise calories - other daily calorie intake.</string>
+    <string name="date_formate" formatted="false">%d-%d-%d</string>
+    <string name="lose_weight_rs" formatted="false">Your goal is to subtract%.2f Jin\nAverage weekly will reduce%.2f Jin\nPossible time for success:%s</string>
+    <string name="tv_input_age">Please input your age:</string>
+
+
+</resources>
