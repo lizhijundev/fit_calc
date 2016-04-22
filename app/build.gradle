@@ -4,10 +4,9 @@ android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
     aaptOptions.cruncherEnabled = false
-
     aaptOptions.useNewCruncher = false
     defaultConfig {
-        applicationId "cn.studyjamscn.s1.sj32.lizhijun"
+        applicationId 'me.lizhijun.android.fit_tool'
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
@@ -18,6 +17,8 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+    productFlavors {
     }
 }
 

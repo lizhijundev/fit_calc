@@ -1,4 +1,4 @@
-package cn.studyjamscn.s1.sj32.lizhijun;
+package me.lizhijun.android.fit_tool;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

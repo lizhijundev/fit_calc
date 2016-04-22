@@ -1,2 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/mac/android/Lizhijun/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/Users/mac/android/Lizhijun/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_b5e353c9210fa95833d569d80430915cf3c0c7dc/classes.dex" />
+    </item>
+    <item
+        jar="/Users/mac/android/Lizhijun/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/Users/mac/android/Lizhijun/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.3.0_0f926464c2a8e7912c1f73136f97f6c08d768651/classes.dex" />
+    </item>
+    <item
+        jar="/Users/mac/android/Lizhijun/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d70910e623e8b77e72a9a44d2b42744e5a6ad45c">
+        <dex dex="/Users/mac/android/Lizhijun/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a95910207eb069f6866805863dea31962bfcb943/classes.dex" />
+    </item>
+    <item
+        jar="/Users/mac/android/Lizhijun/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/Users/mac/android/Lizhijun/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_7bf92cffd61bd8d38aa8e56769d88c16f872c110/classes.dex" />
+    </item>
+    <item
+        jar="/Users/mac/android/Lizhijun/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="/Users/mac/android/Lizhijun/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-22.2.0_3d30cc9992c1cd3e3099fd4032e7f55157ae6817/classes.dex" />
+    </item>
+    <item
+        jar="/Users/mac/android/Lizhijun/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1dedfc2f330d8d93dc083874a410969a79bb3b43">
+        <dex dex="/Users/mac/android/Lizhijun/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b2d0875f845e20ad8b814f977544a97926c4ef45/classes.dex" />
+    </item>
+    <item
+        jar="/App/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/Users/mac/android/Lizhijun/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_7a88c508ca58e97ce4cae96c6656ae959ff204b5/classes.dex" />
+    </item>
+    <item
+        jar="/Users/mac/android/Lizhijun/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/Users/mac/android/Lizhijun/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.3.0_fd4dc93c815b47587a9c2bd8496d34458f11e2e0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/mac/android/Lizhijun/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/Users/mac/android/Lizhijun/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.3.0_2a6d3cf8f32543601ef466b9517dcd0366c43ed8/classes.dex" />
+    </item>
+
+</items>

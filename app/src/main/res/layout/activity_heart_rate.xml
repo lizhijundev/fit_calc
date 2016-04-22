@@ -9,7 +9,7 @@ android:paddingLeft="@dimen/activity_horizontal_margin"
 android:paddingRight="@dimen/activity_horizontal_margin"
 android:paddingTop="@dimen/activity_vertical_margin"
 android:orientation="vertical"
-tools:context="cn.studyjamscn.s1.sj32.lizhijun.HeartRateActivity">
+tools:context="me.lizhijun.android.fit_tool.HeartRateActivity">
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">

@@ -1,4 +1,4 @@
-package cn.studyjamscn.s1.sj32.lizhijun;
+package me.lizhijun.android.fit_tool.test;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
