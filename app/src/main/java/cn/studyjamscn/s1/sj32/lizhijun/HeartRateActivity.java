@@ -16,6 +16,7 @@ public class HeartRateActivity extends AppCompatActivity {
         tv_heart_rate = (TextView) findViewById(R.id.tv_heart_rate);
     }
 
+    //按钮点击
     public void calcHeartRate(View view){
         EditText et_age = (EditText) findViewById(R.id.edit_age);
         if(et_age.getText().toString().trim().equals("")){
@@ -31,7 +32,12 @@ public class HeartRateActivity extends AppCompatActivity {
 
     }
 
-
+    /**
+     * 计算心率
+     * @param age 年龄
+     * @param rd_id 单选框的id
+     * @return
+     */
     public String getResult(int age,int rd_id){
         int heart1 = 0;
         int heart2 = 0;

@@ -2,7 +2,6 @@ package cn.studyjamscn.s1.sj32.lizhijun;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.RadioButton;
@@ -31,10 +30,15 @@ public class HeatActivity extends AppCompatActivity {
         boolean age1 = rd_age1.isChecked();
         boolean age2 = rd_age2.isChecked();
 
-        Log.d("HeatActivity", "weight:" + weight + ",age1:" + age1 + ",age2:" + age2);
         calc(weight,age1,age2);
     }
 
+    /**
+     * 计算热量消耗量
+     * @param weight 体重
+     * @param age1 是否点击第一个单选框
+     * @param age2 是否点击第二个单选框
+     */
     public void calc(double weight,boolean age1,boolean age2){
         String heat = "";
         if (age1){

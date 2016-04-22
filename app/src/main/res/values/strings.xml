@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Lizhijun</string>
+    <string name="app_name">FitTool</string>
     <string name="BMI">BMI</string>
     <string name="heat_consumption">Heat consumption</string>
     <string name="weight_loss_time">Weight loss time</string>

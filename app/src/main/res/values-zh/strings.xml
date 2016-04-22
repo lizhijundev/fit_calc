@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Lizhijun</string>
+    <string name="app_name">健康小助手</string>
     <string name="BMI">身体质量指数</string>
     <string name="heat_consumption">热量消耗</string>
     <string name="weight_loss_time">减肥时间</string>

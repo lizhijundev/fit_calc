@@ -38,25 +38,29 @@ public class BMIActivity extends AppCompatActivity {
             bmiImg.setImageResource(R.drawable.bmi0);
             return;
         }
+        //获取体重
         double weight = Double.valueOf(et_weight.getText().toString().trim())/2.0;
+        //获取身高
         double height = Double.valueOf(et_height.getText().toString().trim())/100.0;
         double BMI =  calculateBMI(weight,height);
         displayResult(BMI);
     }
 
+    /**
+     * 计算BMI值
+     * @param weight 体重
+     * @param height 身高
+     * @return
+     */
     public double calculateBMI(double weight,double height){
         return weight / ( height * height );
     }
 
+    /**
+     * 根据BMI显示测试结果和图片
+     * @param bmi
+     */
     public void displayResult(double bmi){
-        /*
-        过轻：低于18.5
-        正常：18.5-22.9
-        过重：23-24.9
-        肥胖：25-29.9
-        非常肥胖, 高于30
-        * */
-
 
         if (bmi<18.5){
             bmiTv.setText(String.format(getResources().getString(R.string.bmi_tip1),bmi));

@@ -32,12 +32,10 @@ public class WeightLossActivity extends AppCompatActivity {
                 }
                 tv_rlcz.setText(progress+"");
             }
-
             @Override
             public void onStartTrackingTouch(SeekBar seekBar) {
 
             }
-
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
 
@@ -45,6 +43,10 @@ public class WeightLossActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * 点击按钮计算消耗的卡路里
+     * @param view
+     */
     public void calcWeightLoss(View view){
         if(edit_weight.getText().toString().trim().equals("")){
             edit_weight.setError(getResources().getString(R.string.hint_weight));
@@ -56,20 +58,19 @@ public class WeightLossActivity extends AppCompatActivity {
         }
         double weight = Double.valueOf(edit_weight.getText().toString().trim()) / 2.0;
         double goal_weight = Double.valueOf(edit_goal_weight.getText().toString().trim()) / 2.0;
+        //每天可以消耗的卡路里
         int cal_def = Integer.valueOf(tv_rlcz.getText().toString());
-
+        //需要减重多少斤
         double toLose = weight - goal_weight;
-
         //每减少1斤需要3500卡路里热量计算
         int days = (int) ((toLose * 3500) / cal_def);
+        //每周减重多少斤
         double weekAmount = toLose / ((toLose * 3500) / cal_def / 7);
 
         String rsMessage = String.format(getResources().getString(R.string.lose_weight_rs),
                 (toLose * 2),
                 (weekAmount * 2),
-                calcDate(days)
-                );
-
+                calcDate(days));
         tv_heat_rs.setText(rsMessage);
     }
 
